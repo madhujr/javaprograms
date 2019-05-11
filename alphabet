@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class Alphabet{
+public static void main(String[] qwe){
+Scanner Scan=new Scanner(System.in);
+char ch=Scan.next().ToUpperCase().charAt(0);
+if ((ch>64&&ch<91))
+System.out.print("alpha");
+else
+system.print.out("not");
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class Alpha{
+
+public static void main(String[] qwe){
+
+Scanner Scan=new Scanner(System.in);
+
+char ch=Scan.next().charAt(0);
+
+if((ch>64&&ch<91)||(ch>96&&ch<123))
+
+System.out.println("alpha");
+
+else
+
+System.out.println("nope");
+
+}
+
+}
